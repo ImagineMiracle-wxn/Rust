@@ -46,7 +46,7 @@ imaginemiracle:~$ xcode-select --install
 #输出格式：rustc x.y.z (abcabcabc yyyy-mm-dd)
 #描述信息：<版本号> (<提交哈希> <提交日期>)
 imaginemiracle:rust$ rustc --version
-rustc 1.84.1 (e71f9a9a9 2025-01-27)
+rustc 1.61.0 (fe5b13d68 2022-05-18)
 ```
 如果看到这个信息，说明已经成功安装了 `Rust`！
 
@@ -58,6 +58,7 @@ imaginemiracle:rust$ rustup update
 ```
 **(2)** **卸载**
 同时也可以使用 `rustup` 随时卸载 `Rust`。
+
 `[小玩笑]: 这么快就到卸载了？这就是传说中的《Rust语言从入门到放弃》2022最新版教程？`
 ```shell
 imaginemiracle:rust$ rustup self uninstall

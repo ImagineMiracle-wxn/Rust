@@ -41,6 +41,7 @@ imaginemiracle:~$ xcode-select --install
 
 ## 2.2. 查看 Rust 发布的版本号
 通过查看 `Rust` 的版本号，同时也可通过是否有输出检查是否正确的安装了 `Rust`。
+
 `[注]：Windows 与 Linux 命令相同。`
 ```shell
 #输出格式：rustc x.y.z (abcabcabc yyyy-mm-dd)
